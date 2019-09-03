@@ -1,4 +1,4 @@
-# My Résumé as a WebPage
+# My Résumé (CV) as a WebPage
 This repository was started as a task from the StartNG program. 
 
 Flutterwave Post:- https://twitter.com/Stacalpha/status/1164893764000866304?s=20
