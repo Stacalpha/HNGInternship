@@ -2,17 +2,258 @@
 <html lang="en">
 <head> 
   <meta charset="utf-8"> 
-  <title>Feranmi Akinlade - CV</title> 
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" href="https://img.icons8.com/ios/50/000000/developer.png">
+
+  <!-- Primary Meta Tags -->
+  <title>Feranmi Akinlade - CV</title>
+  <meta name="title" content="Feranmi Akinlade - CV">
+  <meta name="description" content="View the résumé of Feranmi Akinlade - Web Developer"> 
+  <meta name="keywords" content="feranmi akinlade,feranmi,cv,web developer,web developer resume">
   <meta name="author" content="Akinlade Feranmi https://feranmi.name.ng">
-  <meta http-equiv="refresh" content="0; url=./feranmi.html" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://feranmi-cv.herokuapp.com">
+  <meta property="og:title" content="Feranmi Akinlade - CV">
+  <meta property="og:description" content="View the résumé of Feranmi Akinlade - Web Developer">
+  <meta property="og:image" content="https://feranmi-cv.herokuapp.com/app-dp.jpg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://feranmi-cv.herokuapp.com">
+  <meta property="twitter:title" content="Feranmi Akinlade - CV">
+  <meta property="twitter:description" content="View the résumé of Feranmi Akinlade - Web Developer">
+  <meta property="twitter:image" content="https://feranmi-cv.herokuapp.com/app-dp.jpg">
+
+  <!-- <link rel="canonical" href="" /> -->
+
+  <link rel="icon" href="https://img.icons8.com/ios/50/000000/developer.png">
+  <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
-  <p>
-    You should be redirected to my CV page automatically. If not, please
-    <a href="./feranmi.html">click here</a>
-  </p>
+  <header>
+    <img src="https://res.cloudinary.com/feranmiakinlade/image/upload/v1566544753/My_dp_lx8bwu.jpg" 
+         alt="My picture" height="100" id="app-dp">
+    <h1 id="app-display-name" class="app-heading">
+      Akinlade Feranmi
+    </h1>
+    <p id="app-job-title" class="app-heading">
+      Web Developer
+    </p>
+  </header>
+
+  <aside>
+    <section title="Skills">
+      <h3 class="app-heading">Technical Skills</h3>
+        <p>
+          <span>(2 years):</span>
+          <i>JavaScript, ES6, HTML5, CSS3, Node.js, Electron.js, Git.</i>
+        </p>
+        <p>
+          <span>(1 year):</span>
+          <i>Angular, React, SCSS.</i>
+        </p>
+        <p>
+          <span>(Studying):</span>
+          <i>Express, MongoDB.</i>
+        </p>
+    </section>
+
+    <address title="Contact">
+      <h3 class="app-heading">Contact</h3>
+        <div>
+          <strong>Location:</strong> 
+            Lagos Mainland, Nigeria
+        </div>
+
+        <div>
+          <strong>eMail:</strong> 
+            <a href="mailto:feranmiakinlade@gmail.com">feranmiakinlade@gmail.com</a>
+        </div>
+
+        <div>
+          <strong>Phone:</strong>
+            <a href="tel:+2348179925186">+2348179925186</a>
+        </div>
+    </address>
+      
+    <section title="Quick Links">
+      <h3 class="app-heading">Quick Links</h3>
+        <ul>
+          <li><em><strong>
+            <a href="https://feranmi.name.ng">My Portfolio</a>
+          </strong></em></li>
+          <li><em><strong>
+            <a href="https://github.com/stacalpha">GitHub</a>
+          </strong></em></li>
+          <li><em><strong>
+            <a href="https://www.linkedin.com/in/akinlade-feranmi-0b6bbb170/">
+              LinkedIn
+            </a>
+          </strong></em></li>
+        </ul>
+    </section>
+  </aside>
+
+  <section title="Professional Profile">
+    <h2 class="app-heading">PROFILE</h2>
+      <p>
+        Software Engineer with experience in designing and developing 
+        fully responsive and accessible user interfaces for websites. 
+        Skilled in the latest web technologies including Angular and React frameworks.
+      </p>
+  </section>
+
+  <section title="Work Experience">
+    <h2 class="app-heading">WORK EXPERIENCE</h2>
+      <h3>
+        Web Developer, Promavin Couture (Freelance Contract) <br>
+        <em>April 2019 – June 2019</em>
+      </h3>
+        <em class="project-description">
+          Promavin Couture is a start-up in the fashion industry in Nigeria 
+          focusing on the production of bespoke menswear.
+        </em>
+        <ul>
+          <li>
+            Developed the company’s website with the Angular Framework using TypeScript language, 
+            HTML5 semantic markup and CSS3 for styling.
+          </li>
+          <li>
+            Used Angular’s Reactive Forms module to build an Order Form, 
+            enabling customers to place orders directly on the website.
+          </li>
+          <li>
+            Created a fully responsive layout for the site with CSS3. 
+            Used Flexbox extensively to achieve a flexible layout, ensuring that the website
+            displays perfectly and is accessible across all modern devices and browsers.
+          </li>
+          <li>
+            Used HTML5 semantic markup to define logical page structures throughout the web app, 
+            thereby improving accessibility.
+          </li>
+          <li>
+            Implemented site navigation with Angular Routing thereby making 
+            the site function as a single-page web app.
+          </li>
+        </ul>
+  </section>
+
+  <section title="Projects">
+    <h2 class="app-heading">PROJECTS</h2>
+      <h3>
+        Sky Stream (Open-source project) <br>
+        <em>2018 - Present</em>
+      </h3>
+        <em class="project-description">
+          Many beautiful media players have been created on mobile platforms offering a 
+          refreshing look along with their core functionality. I created Sky Stream to bring 
+          this same experience to the major desktop operating systems.
+        </em>
+        <ul>
+          <li>
+            Developed a cross-platform desktop app for playing media files with JavaScript and 
+            Node.js along with HTML and CSS by leveraging the Electron.js framework to use web APIs and 
+            features in a native desktop environment.
+          </li> 
+          <li>
+            Used CSS Flexbox extensively to create a flexible layout that remains 
+            accessible regardless of how the window is resized.
+          </li>
+          <li>
+            Used the Node.js FS module to fetch media files in a user’s local storage, 
+            while using Recursion to handle deeply nested folders.
+          </li>
+          <li>
+            Consumed a REST API to fetch media files from a user’s cloud storage 
+            by using the Google Drive API‘s Node.js client.
+          </li>
+          <li>
+            Used JavaScript to manipulate the DOM and render dynamic content 
+            fetched from both local and cloud storage.
+          </li>
+        </ul>
+
+      <h3 id="portfolio-project">
+        My Portfolio <br>
+        <em>July 2019</em>
+      </h3>
+        <em class="project-description">
+          My online portfolio.
+        </em>
+        <ul>
+          <li>
+            Built with React and SCSS. View my previous 
+            projects and details of my skillset and proficiency here.
+          </li>
+        </ul>
+  </section>
+
+  <section title="Eductaion">
+    <h2 class="app-heading">EDUCATION</h2>
+      <ul>
+        <li>
+          <strong>OND in Computer Science - </strong>
+          Yaba College of Technology - 2015 <br>
+        </li>
+        
+        <li>
+          <strong>SSCE (High School) - </strong>
+          Federal Government College, Lagos - 2013 <br>
+        </li>
+      </ul>
+  </section>
+
+  <footer title="Contact Form">
+    <h2 class="app-heading">
+      Get in touch with me.
+    </h2>
+
+    <form class="contact-form"
+          action="contact.php"
+          method="POST"
+        >
+      <label>
+        Name
+        <input 
+          type="text"  required
+          name="name" minlength="4"
+          placeholder="Jane Doe"
+        >
+      </label>
+
+      <label>
+        eMail Address
+        <input 
+          type="email" 
+          name="email" required
+          placeholder="somebody@example.com"
+        >
+      </label>
+
+      <label>
+        Title
+        <input 
+          type="text" 
+          name="title" required
+          placeholder="Title of your message."
+        >
+      </label>
+
+      <label>
+        Message
+        <textarea 
+          name="message" minlength="20" 
+          required
+          placeholder="Your message goes here...     20 characters minimum."
+        ></textarea>
+      </label>
+
+      <button type="submit">
+        Send Message
+      </button>
+    </form>
+  </footer>
 </body>
 </html>
