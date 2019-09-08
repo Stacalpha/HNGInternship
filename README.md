@@ -1,3 +1,5 @@
+# *Source files are in the web folder*
+
 # My Résumé (CV) as a WebPage
 This repository was started as a task from the StartNG program. 
 
