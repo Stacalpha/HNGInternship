@@ -137,7 +137,7 @@ main {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-bottom: 50px !important;
+  margin-bottom: 80px !important;
 }
 
 .category-card {
@@ -149,8 +149,44 @@ main {
   box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.6);
 }
 
+h2 {
+  text-align: left;
+  padding-left: 30px;
+  margin-bottom: 10px;
+}
+
 #all-products {
-  
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30px !important;
+}
+
+.product-card {
+  width: 25vw;
+  height: 35vw;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.6);
+  margin-right: 30px;
+  margin-bottom: 45px;
+}
+
+.product-card > img {
+  height: 55%;
+  width: 100%;
+}
+
+.product-card > div > * {
+  display: block;
+}
+
+.product-details {
+  font-size: 0.7em;
+  padding: 10px;
+  text-align: justify;
 }
 
 #page-footer {
