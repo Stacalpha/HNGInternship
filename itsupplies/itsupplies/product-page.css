@@ -1,0 +1,274 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  padding: 0;
+  background-color: #FFA674;
+}
+
+section, header, footer {
+  width: 100vw;
+  margin: 0 !important;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+header {
+  position: relative;
+  background-color: #FFA674;
+  height: 150px;
+  color: white;
+}
+
+header > h1 {
+  position: absolute;
+  top: 5px;
+  left: 20px;
+  font-size: 1.5em;
+}
+
+#right-top {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#right-top > img {
+  display: block;
+  height: 30px;
+  margin-right: 20px;
+}
+
+#search-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  margin-right: 30px;
+  margin-top: 5px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 1000px;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+
+::placeholder {
+  color: white;
+}
+
+#search-bar > input {
+  background-color: transparent;
+  height: 100%;
+  width: 100px;
+}
+
+#search-bar > img {
+  transform: rotate(270deg);
+  height: 20px;
+  margin-left: 10px;
+}
+
+#tabs {
+  position: absolute;
+  left: 45px;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+#tabs > * {
+  margin: 0 10px;
+}
+
+#tabs > button {
+  background-color: transparent;
+  color: inherit;
+  border: none;
+  padding: 10px;
+}
+
+#tabs > button.selected {
+  border-bottom: 7px solid white;
+  padding-bottom: 5px;
+  font-weight: bold;
+  margin-right: 50px;
+}
+
+#tabs > img {
+  height: 15px;
+  margin-bottom: 25px;
+}
+
+#back-icon {
+  height: 30px;
+  transform: rotate(90deg);
+}
+
+#breadcrumbs {
+  position: absolute;
+  right: 40px;
+  bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#breadcrumbs {
+  font-size: small;
+  color: rgba(255, 255, 255, 0.7);
+  padding-right: 30px;
+}
+
+main {
+  border-radius: 50px 50px 0 0;
+  background-color: white;
+  z-index: 2;
+  padding: 40px 0;
+}
+
+#product-details {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#product-details > * {
+  width: 40%;
+}
+
+#product-text {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  text-align: left;
+}
+
+#product-text > ul {
+}
+
+#add-to-cart {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+  align-self: stretch;
+}
+
+#add-to-cart > label {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 40px;
+  align-items: center;
+}
+
+#add-to-cart > label > small {
+  font-size: 0.7em;
+}
+
+#add-to-cart > label > input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+#add-to-cart > input {
+  display: block;
+  padding: 10px 25px;
+  border-radius: 5px;
+  background-color: rgb(228, 135, 82);
+  color: white;
+  box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.35);
+}
+
+#product-img {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+#product-img > a {
+  align-self: flex-end;
+  background-color: rgb(228, 135, 82);
+  color: white;
+  display: block;
+  padding: 5px 15px;
+  border-radius: 1000px;
+  font-size: small;
+}
+
+#product-img img {
+  width: 100%;
+}
+
+#more-details {
+  margin-top: 150px !important;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+h3 {
+  text-align: left;
+}
+
+#related-products {
+  width: 50%;
+  border-right: 1px solid black;
+  flex-shrink: 0;
+  padding: 20px;
+}
+
+#product-cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  justify-content: space-evenly;
+}
+
+.product-card {
+  width: 19vw;
+  height: 35vw;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.6);
+  margin-right: 30px;
+  margin-bottom: 45px;
+}
+
+.product-card > img {
+  width: 100%;
+}
+
+.product-card > div > * {
+  display: block;
+}
+
+.product-details {
+  font-size: 0.7em;
+  padding: 10px;
+  text-align: justify;
+}
+
+#reviews {
+  padding: 20px;
+  border-left: 1px solid black;
+  width: 50%;
+  flex-shrink: 0;
+}
+
+.review {
+  text-align: left;
+}
+
+#page-footer {
+  /*background-image: radial-gradient(circle at center, #FFA674, #FFA674, rgb(212, 134, 89));*/
+  background-color: #FFA674;
+  opacity: 1;
+}
